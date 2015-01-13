@@ -158,3 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/huawei/mt2/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/huawei/mt2/proprietary/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/huawei/mt2/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g6.bin:system/etc/firmware/cyttsp4_fw_g6.bin \
+    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g750.bin:system/etc/firmware/cyttsp4_fw_g750.bin \
+    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mainboard.bin:system/etc/firmware/cyttsp4_fw_mainboard.bin \
+    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mate2.bin:system/etc/firmware/cyttsp4_fw_mate2.bin \
+    vendor/huawei/mt2/proprietary/etc/firmware/g620L_junda_fw.img:system/etc/firmware/g620L_junda_fw.img \
+    vendor/huawei/mt2/proprietary/etc/firmware/g620L_ofilm_fw.img:system/etc/firmware/g620L_ofilm_fw.img \
+    vendor/huawei/mt2/proprietary/etc/firmware/g660L_ofilm_fw.img:system/etc/firmware/g660L_ofilm_fw.img \
+    vendor/huawei/mt2/proprietary/etc/firmware/g660L_truly_fw.img:system/etc/firmware/g660L_truly_fw.img \
+    vendor/huawei/mt2/proprietary/etc/firmware/g730L_junda_fw.img:system/etc/firmware/g730L_junda_fw.img \
+    vendor/huawei/mt2/proprietary/etc/firmware/g730L_ofilm_fw.img:system/etc/firmware/g730L_ofilm_fw.img
