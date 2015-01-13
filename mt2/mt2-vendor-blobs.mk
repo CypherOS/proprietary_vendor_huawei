@@ -144,3 +144,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+    vendor/huawei/mt2/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
+    vendor/huawei/mt2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
+    vendor/huawei/mt2/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/huawei/mt2/proprietary/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf
