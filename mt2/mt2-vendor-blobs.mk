@@ -173,3 +173,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/g660L_truly_fw.img:system/etc/firmware/g660L_truly_fw.img \
     vendor/huawei/mt2/proprietary/etc/firmware/g730L_junda_fw.img:system/etc/firmware/g730L_junda_fw.img \
     vendor/huawei/mt2/proprietary/etc/firmware/g730L_ofilm_fw.img:system/etc/firmware/g730L_ofilm_fw.img
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/lib/hw/camera.msm8928.so:system/lib/hw/camera.msm8928.so \
+    vendor/huawei/mt2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/huawei/mt2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/huawei/mt2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so
+
