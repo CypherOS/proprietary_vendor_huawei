@@ -117,6 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/mt2/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/huawei/mt2/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/huawei/mt2/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
+    vendor/huawei/mt2/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
