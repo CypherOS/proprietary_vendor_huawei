@@ -134,4 +134,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage
+    vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/huawei/mt2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/huawei/mt2/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/huawei/mt2/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+    vendor/huawei/mt2/proprietary/bin/qmiproxy:system/bin/qmiproxy
