@@ -140,4 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/mt2/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
-    vendor/huawei/mt2/proprietary/bin/qmiproxy:system/bin/qmiproxy
+    vendor/huawei/mt2/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so
