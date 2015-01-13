@@ -132,3 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage
