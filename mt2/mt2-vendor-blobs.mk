@@ -180,3 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/huawei/mt2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so
 
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/etc/gps.conf:system/etc/gps.conf
+
