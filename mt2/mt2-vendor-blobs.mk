@@ -216,3 +216,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov8858_foxconn/multiframe.xml:system/etc/camera/davinci/hw_ov8858_foxconn/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov9724/imgproc.xml:system/etc/camera/davinci/hw_ov9724/imgproc.xml
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/bin/cnd:system/bin/cnd \
+    vendor/huawei/mt2/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
+    vendor/huawei/mt2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/huawei/mt2/proprietary/bin/qrngd:system/bin/qrngd \
+    vendor/huawei/mt2/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
+    vendor/huawei/mt2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/huawei/mt2/proprietary/bin/wlan_detect:system/bin/wlan_detect \
+    vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
+    vendor/huawei/mt2/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/huawei/mt2/proprietary/etc/sec_config:system/etc/sec_config \
+    vendor/huawei/mt2/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
