@@ -201,11 +201,6 @@ case "$target" in
       ln -s /system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_usb \
                 /system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin
 
-      # Use different wpa_supplicant.conf template between wcn driver
-      # and ath6kl driver
-      rm /system/etc/wifi/wpa_supplicant.conf
-      ln -s /system/etc/wifi/wpa_supplicant_ath6kl.conf \
-                /system/etc/wifi/wpa_supplicant.conf
       ;;
 
       "AR6004-SDIO")
@@ -236,11 +231,6 @@ case "$target" in
       ln -s /system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin_sdio \
                 /system/etc/firmware/ath6k/AR6004/hw3.0/bdata.bin
 
-      # Use different wpa_supplicant.conf template between wcn driver
-      # and ath6kl driver
-      rm /system/etc/wifi/wpa_supplicant.conf
-      ln -s /system/etc/wifi/wpa_supplicant_ath6kl.conf \
-                /system/etc/wifi/wpa_supplicant.conf
       ;;
 
       *)
@@ -287,12 +277,6 @@ case "$target" in
              # The property below is used in Qcom SDK for softap to determine
              # the wifi driver config file
              setprop wlan.driver.config /data/misc/wifi/WCNSS_qcom_cfg.ini
-
-             # Use different wpa_supplicant.conf template between wcn driver
-             # and ath6kl driver
-             rm /system/etc/wifi/wpa_supplicant.conf
-             ln -s /system/etc/wifi/wpa_supplicant_wcn.conf \
-                     /system/etc/wifi/wpa_supplicant.conf
 
              # Trigger WCNSS platform driver
              trigger_wcnss &
@@ -405,11 +389,6 @@ case "$target" in
         ln -s /system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_usb \
 		/system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin
 
-        # Use different wpa_supplicant.conf template between wcn driver
-        # and ath6kl driver
-        rm /system/etc/wifi/wpa_supplicant.conf
-        ln -s /system/etc/wifi/wpa_supplicant_ath6kl.conf \
-                /system/etc/wifi/wpa_supplicant.conf
         ;;
       "AR6004-SDIO")
         setprop wlan.driver.ath 2
@@ -428,11 +407,6 @@ case "$target" in
         ln -s /system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin_sdio \
 		/system/etc/firmware/ath6k/AR6004/hw1.3/bdata.bin
 
-        # Use different wpa_supplicant.conf template between wcn driver
-        # and ath6kl driver
-        rm /system/etc/wifi/wpa_supplicant.conf
-        ln -s /system/etc/wifi/wpa_supplicant_ath6kl.conf \
-                  /system/etc/wifi/wpa_supplicant.conf
         ;;
       *)
         echo "*** WI-FI chip ID is not specified in /persist/wlan_chip_id **"
@@ -448,12 +422,6 @@ case "$target" in
         # The property below is used in Qcom SDK for softap to determine
         # the wifi driver config file
         setprop wlan.driver.config /data/misc/wifi/WCNSS_qcom_cfg.ini
-
-        # Use different wpa_supplicant.conf template between wcn driver
-        # and ath6kl driver
-        rm /system/etc/wifi/wpa_supplicant.conf
-        ln -s /system/etc/wifi/wpa_supplicant_wcn.conf \
-                  /system/etc/wifi/wpa_supplicant.conf
 
         # Trigger WCNSS platform driver
         trigger_wcnss &
