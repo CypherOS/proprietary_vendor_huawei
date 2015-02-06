@@ -233,3 +233,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/mt2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/huawei/mt2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/huawei/mt2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
