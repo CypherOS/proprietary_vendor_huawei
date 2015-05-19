@@ -18,6 +18,7 @@ $(call inherit-product, vendor/huawei/g620_a2/g620_a2-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService
 

@@ -58,8 +58,30 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g620_a2/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/huawei/g620_a2/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/huawei/g620_a2/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/huawei/g620_a2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/huawei/g620_a2/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/huawei/g620_a2/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/huawei/g620_a2/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/huawei/g620_a2/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/huawei/g620_a2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/huawei/g620_a2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/g620_a2/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/huawei/g620_a2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/huawei/g620_a2/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/g620_a2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -94,6 +116,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/huawei/g620_a2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/huawei/g620_a2/proprietary/lib/liboeminfo_oem_api.so:system/lib/liboeminfo_oem_api.so \
+    vendor/huawei/g620_a2/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libAKM8975.so:system/vendor/lib/libAKM8975.so \
+    vendor/huawei/g620_a2/proprietary/etc/firmware/h891L_eely_fw.img:system/etc/firmware/h891L_eely_fw.img \
+    vendor/huawei/g620_a2/proprietary/etc/firmware/h891L_ofilm_fw.img:system/etc/firmware/h891L_ofilm_fw.img \
     vendor/huawei/g620_a2/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
