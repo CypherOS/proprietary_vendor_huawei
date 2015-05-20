@@ -80,6 +80,34 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/huawei/g620_a2/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/huawei/g620_a2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/huawei/g620_a2/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/huawei/g620_a2/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/g620_a2/proprietary/bin/irsc_util:system/bin/irsc_util \
