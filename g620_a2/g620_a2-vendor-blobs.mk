@@ -42,6 +42,22 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g620_a2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/g620_a2/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/g620_a2/proprietary/bin/charger_monitor:system/bin/charger_monitor \
+    vendor/huawei/g620_a2/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/huawei/g620_a2/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/huawei/g620_a2/proprietary/lib/libsecure.so:system/lib/libsecure.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/g620_a2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
