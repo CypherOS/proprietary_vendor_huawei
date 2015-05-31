@@ -268,4 +268,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g620_a2/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/huawei/g620_a2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/g620_a2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/huawei/g620_a2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/huawei/g620_a2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/huawei/g620_a2/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/huawei/g620_a2/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
