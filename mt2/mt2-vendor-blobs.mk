@@ -23,6 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Bluetooth_cal.acdb:system/etc/sound_param/mate2/Bluetooth_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/General_cal.acdb:system/etc/sound_param/mate2/General_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Global_cal.acdb:system/etc/sound_param/mate2/Global_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Handset_cal.acdb:system/etc/sound_param/mate2/Handset_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Hdmi_cal.acdb:system/etc/sound_param/mate2/Hdmi_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Headset_cal.acdb:system/etc/sound_param/mate2/Headset_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Speaker_cal.acdb:system/etc/sound_param/mate2/Speaker_cal.acdb \
     vendor/huawei/mt2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/mt2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
