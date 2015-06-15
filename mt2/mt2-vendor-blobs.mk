@@ -371,7 +371,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    vendor/huawei/mt2/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/huawei/mt2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
