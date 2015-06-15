@@ -400,7 +400,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/mt2/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/huawei/mt2/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/huawei/mt2/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/huawei/mt2/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/mt2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
