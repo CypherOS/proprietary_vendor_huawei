@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/huawei/mt2/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
