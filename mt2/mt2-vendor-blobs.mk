@@ -38,6 +38,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
