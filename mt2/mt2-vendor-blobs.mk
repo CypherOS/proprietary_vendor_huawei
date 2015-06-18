@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/huawei/mt2/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
+    vendor/huawei/mt2/proprietary/framework/imslibrary.jar:system/framework/imslibrary.jar \
     vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
