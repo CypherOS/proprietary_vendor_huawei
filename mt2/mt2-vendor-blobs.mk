@@ -462,4 +462,4 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/huawei/mt2/proprietary/bin/wlan_detect:system/bin/wlan_detect
+    vendor/huawei/mt2/proprietary/bin/wcnss_service:system/bin/wcnss_service
