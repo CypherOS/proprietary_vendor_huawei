@@ -371,13 +371,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/huawei/mt2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/huawei/mt2/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
-    vendor/huawei/mt2/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    vendor/huawei/mt2/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/huawei/mt2/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/huawei/mt2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
