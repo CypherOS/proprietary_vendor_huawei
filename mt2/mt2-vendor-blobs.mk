@@ -434,6 +434,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/huawei/mt2/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/huawei/mt2/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libAKM8975.so:system/vendor/lib/libAKM8975.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/huawei/mt2/proprietary/bin/thermal-engine:system/bin/thermal-engine \
