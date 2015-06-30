@@ -233,10 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/huawei/mt2/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/mt2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/huawei/mt2/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/huawei/mt2/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/mt2/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/mt2/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/mt2/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
