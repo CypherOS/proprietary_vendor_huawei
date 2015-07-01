@@ -30,10 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Hdmi_cal.acdb:system/etc/sound_param/mate2/Hdmi_cal.acdb \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Headset_cal.acdb:system/etc/sound_param/mate2/Headset_cal.acdb \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Speaker_cal.acdb:system/etc/sound_param/mate2/Speaker_cal.acdb \
+    vendor/huawei/mt2/proprietary/etc/sound_param/mate2/workspaceFile.qwsp:system/etc/sound_param/mate2/workspaceFile.qwsp \
     vendor/huawei/mt2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/mt2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/mt2/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtaddr.so:system/vendor/lib/libbtaddr.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo_oem_api.so:system/vendor/lib/liboeminfo_oem_api.so \
@@ -46,11 +48,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -62,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libhuawei_secure.so:system/vendor/lib/libhuawei_secure.so \
     vendor/huawei/mt2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -163,6 +169,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/imgproc.xml:system/etc/camera/davinci/hw_imx135_liteon/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/multiframe.xml:system/etc/camera/davinci/hw_imx135_liteon/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
+    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/default/niceFood.dat:system/etc/camera/nicefood/config/default/niceFood.dat \
+    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/device.config:system/etc/camera/nicefood/config/device.config \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_imx214_foxconn/SmartAE.xml:system/etc/camera/smartae/config/hw_imx214_foxconn/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_imx214_sunny/SmartAE.xml:system/etc/camera/smartae/config/hw_imx214_sunny/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml:system/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
@@ -254,6 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/huawei/mt2/proprietary/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf \
     vendor/huawei/mt2/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/huawei/mt2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g6.bin:system/etc/firmware/cyttsp4_fw_g6.bin \
