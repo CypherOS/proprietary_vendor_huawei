@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    imslibrary \
     qcnvitems \
     qcrilhook \
     libHevcSwDecoder \

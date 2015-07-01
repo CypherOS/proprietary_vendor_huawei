@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/huawei/mt2/proprietary/app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
     vendor/huawei/mt2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/huawei/mt2/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -84,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/mt2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/mt2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/huawei/mt2/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/huawei/mt2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -247,7 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/huawei/mt2/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
+    vendor/huawei/mt2/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/huawei/mt2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
