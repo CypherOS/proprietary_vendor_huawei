@@ -251,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/mt2/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/huawei/mt2/proprietary/etc/ons.bin:system/etc/ons.bin \
     vendor/huawei/mt2/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/huawei/mt2/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/mt2/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
