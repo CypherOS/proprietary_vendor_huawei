@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/huawei/mt2/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/huawei/mt2/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -80,9 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/mt2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/huawei/mt2/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/huawei/mt2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/huawei/mt2/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/huawei/mt2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/mt2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/mt2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -232,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/mt2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/mt2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/huawei/mt2/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/huawei/mt2/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
@@ -256,8 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/mt2/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/mt2/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/huawei/mt2/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/mt2/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/huawei/mt2/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/mt2/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
@@ -266,13 +259,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/huawei/mt2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/huawei/mt2/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/huawei/mt2/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libAKM8975.so:system/vendor/lib/libAKM8975.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/huawei/mt2/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/huawei/mt2/proprietary/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf \
     vendor/huawei/mt2/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/huawei/mt2/proprietary/bin/time_daemon:system/bin/time_daemon \
