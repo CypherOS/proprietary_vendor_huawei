@@ -40,24 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo_oem_api.so:system/vendor/lib/liboeminfo_oem_api.so \
     vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
-    vendor/huawei/mt2/proprietary/bin/cnd:system/bin/cnd \
-    vendor/huawei/mt2/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/huawei/mt2/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/huawei/mt2/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/huawei/mt2/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/mt2/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
