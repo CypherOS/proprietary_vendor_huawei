@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/huawei/mt2/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/huawei/mt2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/huawei/mt2/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/huawei/mt2/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/mt2/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
