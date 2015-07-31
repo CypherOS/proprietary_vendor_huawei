@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/huawei/mt2/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/mt2/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
-    vendor/huawei/mt2/proprietary/vendor/lib/libbtaddr.so:system/vendor/lib/libbtaddr.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so \
