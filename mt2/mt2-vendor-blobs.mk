@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo_oem_api.so:system/vendor/lib/liboeminfo_oem_api.so \
     vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
     vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/huawei/mt2/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -65,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/huawei/mt2/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/huawei/mt2/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/huawei/mt2/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/huawei/mt2/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -193,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/huawei/mt2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -227,14 +224,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/huawei/mt2/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/huawei/mt2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/mt2/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/mt2/proprietary/etc/ons.bin:system/etc/ons.bin \
-    vendor/huawei/mt2/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/huawei/mt2/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/huawei/mt2/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/mt2/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -249,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/huawei/mt2/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g6.bin:system/etc/firmware/cyttsp4_fw_g6.bin \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g750.bin:system/etc/firmware/cyttsp4_fw_g750.bin \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mainboard.bin:system/etc/firmware/cyttsp4_fw_mainboard.bin \
