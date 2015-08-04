@@ -17,12 +17,12 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    TimeService \
     qcrilmsgtunnel \
     com.google.widevine.software.drm \
     qcnvitems \
     qcrilhook \
-    libHevcSwDecoder \
-    libtime_genoff
+    libHevcSwDecoder
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/huawei/mt2/overlay
