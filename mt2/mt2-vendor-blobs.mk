@@ -179,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/mt2/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
