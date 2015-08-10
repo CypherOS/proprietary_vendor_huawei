@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/cm_correction.dat:system/etc/camera/davinci/default/cm_correction.dat \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/cm_foliage.dat:system/etc/camera/davinci/default/cm_foliage.dat \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/cm_normal.dat:system/etc/camera/davinci/default/cm_normal.dat \
@@ -142,20 +141,22 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/imgproc.xml:system/etc/camera/davinci/default/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/multiframe.xml:system/etc/camera/davinci/default/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx134/imgproc.xml:system/etc/camera/davinci/hw_imx134/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx134/multiframe.xml:system/etc/camera/davinci/hw_imx134/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/imgproc.xml:system/etc/camera/davinci/hw_imx135_liteon/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/multiframe.xml:system/etc/camera/davinci/hw_imx135_liteon/multiframe.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx219_liteon/imgproc.xml:system/etc/camera/davinci/hw_imx219_liteon/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx219_liteon/multiframe.xml:system/etc/camera/davinci/hw_imx219_liteon/multiframe.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_back/imgproc.xml:system/etc/camera/davinci/hw_ov5648_back/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_back/multiframe.xml:system/etc/camera/davinci/hw_ov5648_back/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn_mate2/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn_mate2/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov8858_foxconn/imgproc.xml:system/etc/camera/davinci/hw_ov8858_foxconn/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov8858_foxconn/multiframe.xml:system/etc/camera/davinci/hw_ov8858_foxconn/multiframe.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov9724/imgproc.xml:system/etc/camera/davinci/hw_ov9724/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_back/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_back/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_back/multiframe.xml:system/etc/camera/davinci/hw_s5k4e1_back/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
-    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/default/niceFood.dat:system/etc/camera/nicefood/config/default/niceFood.dat \
-    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/device.config:system/etc/camera/nicefood/config/device.config \
-    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_imx214_foxconn/SmartAE.xml:system/etc/camera/smartae/config/hw_imx214_foxconn/SmartAE.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_imx214_sunny/SmartAE.xml:system/etc/camera/smartae/config/hw_imx214_sunny/SmartAE.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml:system/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k9a1/imgproc.xml:system/etc/camera/davinci/hw_s5k9a1/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
