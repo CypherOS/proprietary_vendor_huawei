@@ -96,6 +96,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_preview.so:system/vendor/lib/libchromatix_hw_imx135_liteon_preview.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_snapshot.so:system/vendor/lib/libchromatix_hw_imx135_liteon_snapshot.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_video_hd.so:system/vendor/lib/libchromatix_hw_imx135_liteon_video_hd.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_common.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_common.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_common_mate2.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_common_mate2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video_mate2.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video_mate2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_preview.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_preview.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_preview_mate2.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_preview_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_common.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_common.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_common_mate2.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_common_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video.so \
@@ -125,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hw_imx135_liteon.so:system/vendor/lib/libmmcamera_hw_imx135_liteon.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hw_ov5648_foxconn.so:system/vendor/lib/libmmcamera_hw_ov5648_foxconn.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hw_s5k4e1_sunny.so:system/vendor/lib/libmmcamera_hw_s5k4e1_sunny.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
@@ -143,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/imgproc.xml:system/etc/camera/davinci/hw_imx135_liteon/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/multiframe.xml:system/etc/camera/davinci/hw_imx135_liteon/multiframe.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
