@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libbtpower.so:system/vendor/lib/libbtpower.so \
     vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo.so:system/vendor/lib/liboeminfo.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/liboeminfo_oem_api.so:system/vendor/lib/liboeminfo_oem_api.so \
     vendor/huawei/mt2/proprietary/etc/batt_fw.bin:system/etc/batt_fw.bin \
     vendor/huawei/mt2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/mt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
