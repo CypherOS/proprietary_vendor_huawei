@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Bluetooth_cal.acdb:system/etc/sound_param/mate2/Bluetooth_cal.acdb \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/General_cal.acdb:system/etc/sound_param/mate2/General_cal.acdb \
     vendor/huawei/mt2/proprietary/etc/sound_param/mate2/Global_cal.acdb:system/etc/sound_param/mate2/Global_cal.acdb \
