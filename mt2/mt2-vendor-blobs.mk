@@ -247,14 +247,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g6.bin:system/etc/firmware/cyttsp4_fw_g6.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g750.bin:system/etc/firmware/cyttsp4_fw_g750.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mainboard.bin:system/etc/firmware/cyttsp4_fw_mainboard.bin \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mate2.bin:system/etc/firmware/cyttsp4_fw_mate2.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/g620L_junda_fw.img:system/etc/firmware/g620L_junda_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g620L_ofilm_fw.img:system/etc/firmware/g620L_ofilm_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g660L_ofilm_fw.img:system/etc/firmware/g660L_ofilm_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g660L_truly_fw.img:system/etc/firmware/g660L_truly_fw.img \
     vendor/huawei/mt2/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
