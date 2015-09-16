@@ -68,24 +68,29 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/huawei/mt2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/mt2/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
+    vendor/huawei/mt2/proprietary/lib/imedia_filters.so:system/lib/imedia_filters.so \
+    vendor/huawei/mt2/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
+    vendor/huawei/mt2/proprietary/lib/libFaceDetection.so:system/lib/libFaceDetection.so \
+    vendor/huawei/mt2/proprietary/lib/libRefocusContrastPosition.so:system/lib/libRefocusContrastPosition.so \
+    vendor/huawei/mt2/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
+    vendor/huawei/mt2/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
+    vendor/huawei/mt2/proprietary/lib/libexif.so:system/lib/libexif.so \
     vendor/huawei/mt2/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/mt2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/mt2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/mt2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/huawei/mt2/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
     vendor/huawei/mt2/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+    vendor/huawei/mt2/proprietary/lib/libmrc_cg_myFilter.so:system/lib/libmrc_cg_myFilter.so \
+    vendor/huawei/mt2/proprietary/lib/libmrc_cg_niceFood.so:system/lib/libmrc_cg_niceFood.so \
+    vendor/huawei/mt2/proprietary/lib/libmrc_cg_post_mfdenoise.so:system/lib/libmrc_cg_post_mfdenoise.so \
+    vendor/huawei/mt2/proprietary/lib/libmrc_cg_post_postprocess.so:system/lib/libmrc_cg_post_postprocess.so \
     vendor/huawei/mt2/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+    vendor/huawei/mt2/proprietary/lib/libposthdr.so:system/lib/libposthdr.so \
     vendor/huawei/mt2/proprietary/lib/libtrack.so:system/lib/libtrack.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_common.so:system/vendor/lib/libchromatix_hw_imx135_liteon_common.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_default_video.so:system/vendor/lib/libchromatix_hw_imx135_liteon_default_video.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_imx135_liteon_hfr_120.so:system/vendor/lib/libchromatix_hw_imx135_liteon_hfr_120.so \
@@ -99,19 +104,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video_mate2.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_default_video_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_preview.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_preview.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_preview_mate2.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_preview_mate2.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_ov5648_foxconn_snapshot.so:system/vendor/lib/libchromatix_hw_ov5648_foxconn_snapshot.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_common.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_common.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_common_mate2.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_common_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video_mate2.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_default_video_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview_3.8m.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview_3.8m.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview_mate2.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_preview_mate2.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_hw_s5k4e1_sunny_snapshot_mate2.so:system/vendor/lib/libchromatix_hw_s5k4e1_sunny_snapshot_mate2.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -123,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hw_ov5648_foxconn.so:system/vendor/lib/libmmcamera_hw_ov5648_foxconn.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_hw_s5k4e1_sunny.so:system/vendor/lib/libmmcamera_hw_s5k4e1_sunny.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
@@ -146,9 +145,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/default/multiframe.xml:system/etc/camera/davinci/default/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/device.config:system/etc/camera/davinci/device.config \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/imgproc.xml:system/etc/camera/davinci/hw_imx135_liteon/imgproc.xml \
-    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_imx135_liteon/multiframe.xml:system/etc/camera/davinci/hw_imx135_liteon/multiframe.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_ov5648_foxconn_mate2/imgproc.xml:system/etc/camera/davinci/hw_ov5648_foxconn_mate2/imgproc.xml \
     vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml:system/etc/camera/davinci/hw_s5k4e1_sunny_mate2/imgproc.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/filter/filter.xml:system/etc/camera/filter/filter.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/filter/mixIm.dat:system/etc/camera/filter/mixIm.dat \
+    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/default/niceFood.dat:system/etc/camera/nicefood/config/default/niceFood.dat \
+    vendor/huawei/mt2/proprietary/etc/camera/nicefood/config/device.config:system/etc/camera/nicefood/config/device.config \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml:system/etc/camera/smartae/config/hw_ov5648_foxconn/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml:system/etc/camera/smartae/config/hw_s5k4e1_sunny/SmartAE.xml \
+    vendor/huawei/mt2/proprietary/etc/camera/smartae/device.config:system/etc/camera/smartae/device.config \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageMinMaxTOA.txt:system/etc/camera/tornado/FoliageMinMaxTOA.txt \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/FoliageModelTOA.model:system/etc/camera/tornado/FoliageModelTOA.model \
     vendor/huawei/mt2/proprietary/etc/camera/tornado/NightMinMaxTOA.txt:system/etc/camera/tornado/NightMinMaxTOA.txt \
@@ -247,14 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g6.bin:system/etc/firmware/cyttsp4_fw_g6.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_g750.bin:system/etc/firmware/cyttsp4_fw_g750.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mainboard.bin:system/etc/firmware/cyttsp4_fw_mainboard.bin \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mate2.bin:system/etc/firmware/cyttsp4_fw_mate2.bin \
-    vendor/huawei/mt2/proprietary/etc/firmware/g620L_junda_fw.img:system/etc/firmware/g620L_junda_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g620L_ofilm_fw.img:system/etc/firmware/g620L_ofilm_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g660L_ofilm_fw.img:system/etc/firmware/g660L_ofilm_fw.img \
-    vendor/huawei/mt2/proprietary/etc/firmware/g660L_truly_fw.img:system/etc/firmware/g660L_truly_fw.img \
     vendor/huawei/mt2/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \

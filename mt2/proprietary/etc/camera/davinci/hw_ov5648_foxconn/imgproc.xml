@@ -17,14 +17,14 @@
             <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
             <ColorManageFlag>1</ColorManageFlag>
 
-            <luma>-100</luma>
-            <chroma>-80</chroma>
-            <lumaHF>-100</lumaHF>
+            <luma>-90</luma>
+            <chroma>-75</chroma>
+            <lumaHF>-90</lumaHF>
             <chromaHF>-80</chromaHF>
-            <detail>-50</detail>
+            <detail>-60</detail>
         </ISO1>
         <ISO2>
-            <isovalue>190</isovalue>
+            <isovalue>110</isovalue>
 
             <NoiseReducFlag>1</NoiseReducFlag>
             <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
@@ -32,65 +32,65 @@
             <ColorManageFlag>1</ColorManageFlag>
 
             <luma>-80</luma>
-            <chroma>-60</chroma>
-            <lumaHF>-80</lumaHF>
-            <chromaHF>-60</chromaHF>
+            <chroma>-70</chroma>
+            <lumaHF>-60</lumaHF>
+            <chromaHF>-75</chromaHF>
             <detail>-101</detail>
         </ISO2>
         <ISO3>
-            <isovalue>250</isovalue>
+            <isovalue>200</isovalue>
 
             <NoiseReducFlag>1</NoiseReducFlag>
             <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
             <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
             <ColorManageFlag>1</ColorManageFlag>
 
-            <luma>-70</luma>
+            <luma>-75</luma>
             <chroma>-60</chroma>
             <lumaHF>-60</lumaHF>
             <chromaHF>-60</chromaHF>
             <detail>-101</detail>
         </ISO3>
         <ISO4>
-            <isovalue>500</isovalue>
-
-            <NoiseReducFlag>1</NoiseReducFlag>
-            <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
-            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
-            <ColorManageFlag>0</ColorManageFlag>
-
-            <luma>-60</luma>
-            <chroma>-50</chroma>
-            <lumaHF>-50</lumaHF>
-            <chromaHF>-50</chromaHF>
-            <detail>-101</detail>
-        </ISO4>
-        <ISO5>
-            <isovalue>800</isovalue>
+            <isovalue>400</isovalue>
 
             <NoiseReducFlag>1</NoiseReducFlag>
             <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-50</luma>
-            <chroma>-40</chroma>
-            <lumaHF>-40</lumaHF>
-            <chromaHF>-40</chromaHF>
+            <luma>-70</luma>
+            <chroma>-65</chroma>
+            <lumaHF>-50</lumaHF>
+            <chromaHF>-70</chromaHF>
+            <detail>-101</detail>
+        </ISO4>
+        <ISO5>
+            <isovalue>700</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
+            <ColorManageFlag>0</ColorManageFlag>
+
+            <luma>-70</luma>
+            <chroma>-70</chroma>
+            <lumaHF>-50</lumaHF>
+            <chromaHF>-70</chromaHF>
             <detail>-101</detail>
         </ISO5>
         <ISO6>
-            <isovalue>1200</isovalue>
+            <isovalue>1000</isovalue>
 
             <NoiseReducFlag>1</NoiseReducFlag>
             <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-40</luma>
-            <chroma>-30</chroma>
-            <lumaHF>-30</lumaHF>
-            <chromaHF>-30</chromaHF>
+            <luma>-60</luma>
+            <chroma>-60</chroma>
+            <lumaHF>-40</lumaHF>
+            <chromaHF>-60</chromaHF>
             <detail>-101</detail>
         </ISO6>
         <ISO7>
@@ -101,10 +101,10 @@
             <SharpnessEnhanceFlag>0</SharpnessEnhanceFlag>
             <ColorManageFlag>0</ColorManageFlag>
 
-            <luma>-20</luma>
-            <chroma>-20</chroma>
-            <lumaHF>-20</lumaHF>
-            <chromaHF>-20</chromaHF>
+            <luma>-50</luma>
+            <chroma>-50</chroma>
+            <lumaHF>-30</lumaHF>
+            <chromaHF>-50</chromaHF>
             <detail>-101</detail>
         </ISO7>
         <ISO8>
