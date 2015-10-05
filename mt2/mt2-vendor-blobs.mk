@@ -255,7 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/huawei/mt2/proprietary/etc/firmware/cyttsp4_fw_mate2.bin:system/etc/firmware/cyttsp4_fw_mate2.bin \
-    vendor/huawei/mt2/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/huawei/mt2/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/huawei/mt2/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
