@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The Pure Nexus Project
+# Copyright (C) 2016 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,15 +15,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),angler)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CABLService
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := CABLService/CABLService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HwMMITest
@@ -47,15 +38,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := ims/ims.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilmsgtunnel
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)

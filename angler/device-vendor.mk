@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The Pure Nexus Project
+# Copyright (C) 2016 The Pure Nexus Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,11 +16,9 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    CABLService \
     HwMMITest \
     HwSarControlService \
     ims \
-    qcrilmsgtunnel \
     SetupSmartDeviceOverlay \
     TimeService \
     Tycho 
@@ -40,6 +38,7 @@ PRODUCT_PACKAGES += \
     GCS \
     HiddenMenu \
     HotwordEnrollment \
+    qcrilmsgtunnel \
     SprintDM
 
 # Symlinks
