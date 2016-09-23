@@ -43,5 +43,3 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.google.widevine.software.drm \
     qcrilhook
-PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml
