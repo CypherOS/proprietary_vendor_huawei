@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:system/etc/diag/Angler_Radio-general.cfg \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/angler/proprietary/lib64/hw/activity_recognition.angler.so:system/lib64/hw/activity_recognition.angler.so \
@@ -52,14 +51,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.google.widevine.software.drm \
     qcrilhook
-PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/bin/dsm_ctrl:system/bin/dsm_ctrl \
-    vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so
 
 PRODUCT_PACKAGES += \
-    ims
+    ims \
+    TimeService
