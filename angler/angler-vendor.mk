@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     HotwordEnrollment \
     SprintDM \
+    atfwd \
     qcrilmsgtunnel \
     com.google.widevine.software.drm \
     qcrilhook
