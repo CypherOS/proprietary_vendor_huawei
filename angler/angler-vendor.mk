@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so
 
 PRODUCT_PACKAGES += \
+    HwSarControlService \
     Tycho \
     CNEService \
     CarrierServices \
