@@ -17,6 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/bin/displayengineserver@1.0:system/bin/displayengineserver@1.0 \
     vendor/huawei/kirin970-common/proprietary/bin/displayengineserver@1.1:system/bin/displayengineserver@1.1 \
+	vendor/huawei/kirin970-common/proprietary/bin/hw/android.hardware.wifi@1.0-service:system/bin/hw/android.hardware.wifi@1.0-service \
+    vendor/huawei/kirin970-common/proprietary/bin/hw/hostapd:system/bin/hw/hostapd \
+    vendor/huawei/kirin970-common/proprietary/bin/hw/hostapd_hisi:system/bin/hw/hostapd_hisi \
     vendor/huawei/kirin970-common/proprietary/emui/base/global/ons.bin:system/emui/base/global/ons.bin \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.frameworks.schedulerservice@1.0.so:system/lib/vndk-26/android.frameworks.schedulerservice@1.0.so \
     vendor/huawei/kirin970-common/proprietary/lib/vndk-26/android.frameworks.sensorservice@1.0.so:system/lib/vndk-26/android.frameworks.sensorservice@1.0.so \
@@ -388,4 +391,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicui18n.so:system/lib64/vndk-27/libicui18n.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libicuuc.so:system/lib64/vndk-27/libicuuc.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-27/libneuralnetworks.so:system/lib64/vndk-27/libneuralnetworks.so \
-    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so
+    vendor/huawei/kirin970-common/proprietary/lib64/libwifi-system.so:system/lib64/libwifi-system.so \
+	vendor/huawei/kirin970-common/proprietary/lib64/libwifi-hal.so:system/lib64/libwifi-hal.so
