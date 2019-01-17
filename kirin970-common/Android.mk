@@ -20,26 +20,36 @@ ifneq ($(filter berkeley charlotte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentOKGoogleHI6403
-LOCAL_MODULE_OWNER := honor
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleHI6403.apk
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleHI6403/HotwordEnrollmentOKGoogleHI6403.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentXGoogleHI6403
-LOCAL_MODULE_OWNER := honor
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentXGoogleHI6403.apk
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentXGoogleHI6403/HotwordEnrollmentXGoogleHI6403.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := chargeonlymode
+LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)
+LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
+LOCAL_SRC_FILES := proprietary/rootfs/sbin/chargeonlymode
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := EXECUTABLES
 include $(BUILD_PREBUILT)
 
 endif
